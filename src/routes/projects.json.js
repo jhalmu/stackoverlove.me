@@ -11,7 +11,7 @@ export async function GET() {
 					tags
 					sourceCode
 					image {
-						url
+						url(transformation: {image:{resize:{fit:clip, height:150,width:150}}})
 					}
 				}
 			}

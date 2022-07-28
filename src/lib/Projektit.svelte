@@ -6,7 +6,7 @@
 {#each projects as { name, slug, description, tags, image, demo, sourceCode }}
 	<div class="card max-h-fit w-80 max-w-xl bg-base-100 border text-sm">
 		<figure class="px-5 pt-2 max-w-fit">
-			<img class="rounded-xl w-60" src={image[0].url} alt={`Cover image for ${name}`} />
+			<img class="rounded-xl " src={image[0].url} alt={`Cover image for ${name}`} />
 		</figure>
 		<div class="card-body">
 			<h2 class="card-title">{name}</h2>
