@@ -1,25 +1,27 @@
 <script>
 	export let projects;
+	import { marked } from 'marked'
 </script>
 
 {#each projects as { name, slug, description, tags, image, demo, sourceCode }}
-	<div class="card w-96 max-w-xl bg-base-100 border">
-		<figure class="px-10 pt-10">
-			<img class="rounded-xl" src={image[0].url} alt={`Cover image for ${name}`} />
+	<div class="card max-h-fit w-80 max-w-xl bg-base-100 border text-sm">
+		<figure class="px-5 pt-2 max-w-fit">
+			<img class="rounded-xl w-60" src={image[0].url} alt={`Cover image for ${name}`} />
 		</figure>
 		<div class="card-body">
 			<h2 class="card-title">{name}</h2>
-			<p>{description}</p>
-			<div class="flex justify-center mt-5 space-x-2">
+			<article div class="prose prose-base">
+			 {@html marked(description)}
+			</article>
+			<div class="flex justify-center mt-5 space-x-2 flex-wrap">
 				{#each tags as tag}
-					<span class="badge badge-primary">{tag}</span>
+					<span class="badge badge-accent min-w-fit p-4 m-1">{tag}</span>
 				{/each}
 			</div>
 			
-<!-- 			<div class="card-actions justify-end">
-				<a href={`/projects/${slug}`} class="btn btn-primary">Lisää</a>
-				<a href={sourceCode} class="btn btn-primary">Koodi</a>
-			</div> -->
+			<div class="card-actions justify-center mt-5">
+				<a href={sourceCode} target="_blank"><img width="40" src="GitHub-Mark-64px.png" alt="Source GitHub Octocat" /></a>
+			</div>
 		</div>
 	</div>
 {/each}
