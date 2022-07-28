@@ -1,9 +1,9 @@
-import { client } from '$lib/graphql-client'
-import { gql } from 'graphql-request'
+import { client } from '$lib/graphql-client';
+import { gql } from 'graphql-request';
 
 export async function GET() {
-    try {
-        const query = gql`
+	try {
+		const query = gql`
 			query Projects {
 				projects {
 					name
@@ -11,21 +11,21 @@ export async function GET() {
 					tags
 					sourceCode
 					image {
-						url(transformation: {image:{resize:{fit:clip, height:150,width:150}}})
+						url(transformation: { image: { resize: { fit: clip, height: 150, width: 150 } } })
 					}
 				}
 			}
-		`
-        const { projects } = await client.request(query)
+		`;
+		const { projects } = await client.request(query);
 
-        return {
-            status: 200,
-            body: { projects },
-        }
-    } catch (error) {
-        return {
-            status: 500,
-            body: { error: 'Tehere was sevrverrrr errorrr.' },
-        }
-    }
+		return {
+			status: 200,
+			body: { projects }
+		};
+	} catch (error) {
+		return {
+			status: 500,
+			body: { error: 'Tehere was sevrverrrr errorrr.' }
+		};
+	}
 }

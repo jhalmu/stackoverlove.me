@@ -1,13 +1,13 @@
 <script context="module">
 	export const load = ({ error, status }) => {
 		return {
-			props: { error, status },
-		}
-	}
+			props: { error, status }
+		};
+	};
 </script>
 
 <script>
-	export let error, status
+	export let error, status;
 </script>
 
 <svelte:head>
