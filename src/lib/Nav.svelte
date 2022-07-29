@@ -1,11 +1,5 @@
-<script>
-	// import ThemeSelect from './theme-select.svelte';
-	// export let pages;
-	// shadow-lg
-</script>
-
-<div
-	class="mx-auto top-nav navbar sticky top-0 z-50 border-base-300 text-neutral-content shadow-md "
+<div id="top"
+	class="mx-auto navbar top z-50 border-base-300 text-neutral-content divider mt-10"
 >
 	<div class="mx-auto max-w-4xl">
 		<div class="px-2 mx-2 navbar-start min-w-fit p-4">

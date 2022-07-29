@@ -12,24 +12,25 @@
 </script>
 
 <script>
+	import Headroom from "svelte-headroom";
 	import '$lib/global.css';
 	import Nav from '$lib/Nav.svelte';
+	import About from '$lib/About.svelte';
 	export let projects;
 </script>
 
 <svelte:head>
 	<title>Juhan sivut | Welcome</title>
 </svelte:head>
-<header id="top">
+<Headroom duration="300ms" offset={50} tolerance={2} >
+<header>
 	<nav>
 		<Nav />
-		<!--         
-            <slot />
-        </div> -->
 	</nav>
 </header>
+</Headroom>
+<main class="container mx-auto mt-40 col-3">
 
-<main class="container mx-auto mt-8 col-3">
 	<article id="projects">
 		<section class="flex flex-wrap gap-8 justify-center">
 			<div class="hero flex flex-wrap justify-center mb-2 mt-8 text-4xl font-extralight ">
@@ -41,8 +42,21 @@
 			<Projektit {projects} />
 		</section>
 	</article>
+
+	<article id="about">
+		<section class="flex flex-wrap gap-8 justify-center">
+			<div class="hero flex flex-wrap justify-center mb-2 mt-8 text-4xl font-extralight ">
+				About
+				<span class="ml-2 text-xs underline underline-offset-4 hover:underline-offset-8"
+					><a href="#top" alt="Back to top">TOP</a></span
+				>
+			</div>
+			<About />
+		</section>
+	</article>
+
 </main>
-<footer class="footer btm-nav-lg p-10 text-base-content mt-4 mb-4">
+<footer class="footer btm-nav-lg p-20 text-base-content mt-4 mb-16">
 	<div>
 		<a href="#top" alt="Back to top">
 			<svg
@@ -69,7 +83,25 @@
 		<a
 			class="link link-hover"
 			href="https://www.linkedin.com/in/juha-halmu-430751232/"
-			target="_blank">LinkedIn</a
-		> Twitter Mail Telepathy (offline)
+			target="_blank">LinkedIn</a>
+		<a
+			class="link link-hover"
+			href="mailto:etunimi.sukunimi @ iki.fi?subject=Postia%20www-sivuilta">Sposti</a>
+		 Twitter Telepathy (offline)
+	</div>
+<div>
+		<span class="footer-title">Old Blogs etc</span>
+		<a
+			class="link link-hover"
+			href="https://dividends-o-matic.net/"
+			target="_blank">dividends-o-matic.net</a>
+		<a
+			class="link link-hover"
+			href="https://juhahalmu.wordpress.com/"
+			target="_blank">WP</a>
+		<a
+			class="link link-hover"
+			href="https://www.flickr.com/photos/juhahalmu/"
+			target="_blank">Flickr</a>
 	</div>
 </footer>

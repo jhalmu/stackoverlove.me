@@ -1,0 +1,41 @@
+<div class="card max-h-fit w-full max-w-4xl bg-base-100 border text-sm">
+<!-- 		<figure class="px-5 pt-2 max-w-fit">
+			<img class="rounded-xl " src={image[0].url} alt={`Cover image for ${name}`} />
+		</figure> -->
+		<div class="card-body">
+			<h2 class="card-title">Juha Halmu</h2>
+			<article div class="prose prose-base">
+                <p>
+                    Opiskelen tällä hetkellä Taitotalossa ohjemointia pääkielenä Python. 
+                    Kurssin pohjatarkoituksena on saada junior software developer -taso. Laajempi teoreettis-käytänöllinen
+                    oppiminen tapahtuu luonnollisesti itseopiskeluna tekemällä harjoitteita ja omia projekteja. 
+                    Sekä kurssiin kuuluvan työharjoittelun kautta.
+                </p>
+                <p>
+                    Pohjakoulutuksena olen YO, ammatillisia papereita on ohjelmoija-datanomi ja mt-lähihoitaja. Kummastakin on työkokemusta.
+                    Aloitin ensin ohjelmoinnilla, mutta kun en ollut vielä löytänyt esim Pythonia ei auttanut kuin vaihtaa vähäksi aikaa alaa.
+                    Olen vuosien varrella lämmitellyt ohejelmointitaitojani ja katsonut ja pohtinut tuhansia videoita ja useita kursseaja, mutta 
+                    varsinaiset projektit jäivät kolmivuorotyön himmennyksessä. Otin sivuston teemaksi käsitteen Rabbid Hole, koska
+                    varsinaisen projektien puute työn ohessa pistää tutustumaan kaikkeen uuteen.  
+                </p>
+                <p>
+                    Harrastan ja olen harrastanut: valokuvaus, sukututkimus, sijoittaminen, voimailu ja opiskelu.
+                </p>
+                <p>
+                    Ota yhteyttä esim LinkedIn:in kautta tai laita postia etunimi.sukunimi @iki.fi niin kerron mielellään lisää ja katsotaan
+                    miten tarpeemme kohtaavat. 
+                </p>
+                <p>
+                    Avainsanat: frontend, backend, python, javascript, php, macos, linux, win, tailwindcss, css, html, svelte, graphql, docker, fastapi, flask, nginx, security, jne<br />
+                    Miksi listasta puuttuu React? Koska omiin projekteihin se on overkill vaikka sellaista ei olekaan kuin overkill.
+                </p>
+			</article>
+
+			<div class="card-actions justify-center mt-5">
+						<a
+			class="link link-hover"
+			href="https://www.linkedin.com/in/juha-halmu-430751232/"
+			target="_blank">LinkedIn</a>
+            </div>
+		</div>
+	</div>
