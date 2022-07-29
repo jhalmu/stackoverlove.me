@@ -31,7 +31,7 @@
 </Headroom>
 </header>
 
-<main class="mx-auto mt-60 col-3 -z-50">
+<main class="mx-auto mt-40 col-3 -z-50">
 
 	<article id="projects">
 		<section class="flex flex-wrap gap-8 justify-center">

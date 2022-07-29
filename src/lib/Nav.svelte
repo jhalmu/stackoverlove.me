@@ -1,5 +1,5 @@
 <div id="top"
-	class="mx-auto -my-10 navbar h-60 top-0 border-base-300 text-neutral-content divider pl-10 pr-10 pt-0 bg-white"
+	class="mx-auto -my-10 navbar h-40 top-0 border-base-300 text-neutral-content divider pl-10 pr-10 pt-0 bg-white"
 >
 	<div class="mx-auto max-w-4xl">
 		<div class="px-2 mx-2 navbar-start min-w-fit">
