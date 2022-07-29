@@ -4,8 +4,8 @@
 </script>
 
 {#each projects as { name, slug, description, tags, image, demo, sourceCode }}
-	<div class="card max-h-fit w-80 max-w-xl bg-base-100 border text-sm">
-		<figure class="px-5 pt-2 max-w-fit">
+	<div class="card justify-content max-h-fit w-80 max-w-xl bg-base-100 border">
+		<figure class="m-2 px-5 pt-2 max-w-fit">
 			<img class="rounded-xl " src={image[0].url} alt={`Cover image for ${name}`} />
 		</figure>
 		<div class="card-body">
@@ -21,7 +21,7 @@
 
 			<div class="card-actions justify-center mt-5">
 				<a href={sourceCode} target="_blank"
-					><img width="40" src="GitHub-Mark-64px.png" alt="Source GitHub Octocat" /></a
+					><img width="40" src="GitHub-Mark-64px.png" alt="Source GitHub" /></a
 				>
 			</div>
 		</div>
