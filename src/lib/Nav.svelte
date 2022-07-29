@@ -1,8 +1,8 @@
 <div id="top"
-	class="mx-auto navbar top z-50 border-base-300 text-neutral-content divider mt-10"
+	class="mx-auto -my-10 navbar h-60 top-0 border-base-300 text-neutral-content divider pl-10 pr-10 pt-0 bg-white"
 >
 	<div class="mx-auto max-w-4xl">
-		<div class="px-2 mx-2 navbar-start min-w-fit p-4">
+		<div class="px-2 mx-2 navbar-start min-w-fit">
 			<div class="text-lg font-bold wrap h-5">
 				Stackover<span class="bg-accent p-1 ml-1">love</span>.me
 			</div>
