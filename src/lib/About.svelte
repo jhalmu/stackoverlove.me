@@ -30,7 +30,7 @@
 			</p>
 			<p>
 				Avainsanat: frontend, backend, python, javascript, php, macos, linux, win, tailwindcss, css,
-				html, svelte, graphql, docker, fastapi, flask, nginx, security, jne
+				html, svelte, sql, graphql, docker, fastapi, flask, nginx, security, jne
 			</p>
 			<p>
 				Miksi listasta puuttuu React? Koska omiin projekteihin se on overkill vaikka sellaista ei
