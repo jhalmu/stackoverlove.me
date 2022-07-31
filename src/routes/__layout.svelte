@@ -83,7 +83,13 @@
 	</div>
 	<div>
 		<span class="footer-title">Oikeudet</span>
-		&copy; Juha Halmu ja oikeudenomistajat
+		<p>&copy; Juha Halmu ja oikeudenomistajat.</p>
+		<p>
+			Tämä sivusto käyttää keksejä, <br /> että matkasi olisi mukavampi.
+		</p>
+		<p>
+			<input type="checkbox" name="gdprsRulesOk"> Oukei?
+		</p>
 	</div>
 	<div>
 		<span class="footer-title">Yhteys</span>

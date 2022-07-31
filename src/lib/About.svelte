@@ -45,6 +45,11 @@
 				Yritän välttää puhumasta mitä aion tehdä koska tekmistä ja varsinkin ideoita riittää. Sen verran sanon, että nämä sivut ovat kehityksen
 				alla. Tulossa mm. SEO-ominaisuudet. Ja se blogi pitää laittaa valumaan tänne kun tykkään pohtia.
 			</p>
+			<p>
+				Fun fact: Olen joskus koodannut kalliilla hötömölöä, niin että annoin korjaukset
+				paperilapulla, koska the koodarit eivät päästäneet lähellekään serverin sisältöjä.
+				Tuohon aikaan löysin myös valon koska kuulin että oli olemassa if ja else.
+			</p>
 		</article>
 
 		<div class="card-actions justify-center mt-5">
