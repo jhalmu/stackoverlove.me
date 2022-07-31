@@ -14,7 +14,12 @@
 			<p>
 				Pohjakoulutuksena olen Yo, ammatillisia papereita on ohjelmoija-datanomi ja mt-lähihoitaja.
 				Kummastakin on työkokemusta. Aloitin ensin ohjelmoinnilla, mutta kun en ollut vielä löytänyt
-				esim Pythonia, ei auttanut kuin vaihtaa vähäksi aikaa alaa. Olen vuosien varrella
+				esim Pythonia, ei auttanut kuin vaihtaa vähäksi aikaa alaa. Tosin olen myös hyvä kriittisessä otteessa ja uskallan sanoa, neuvoa ja ohjeistaa. 
+				Aiempi työni mt-alalla on toki opettanut muotoilemaan sanomani ja toisaalta rakastamaan kehujen antoa, koska
+				olen huomannut että kehut ja myönteinen yksinkertaisesti vain toimii. 
+			</p> 
+			<p>
+				Olen vuosien varrella
 				lämmitellyt ohjelmointitaitojani ja katsonut ja pohtinut tuhansia videoita ja useita
 				kursseja, mutta varsinaiset projektit jäivät kolmivuorotyön himmennyksessä. Otin sivuston
 				teemaksi käsitteen Rabbid Hole, koska varsinaisen projektien puute työn ohessa pistää
