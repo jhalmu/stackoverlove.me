@@ -31,12 +31,14 @@
 				</ul>
 			</div>
 		</div>
+		<a href="/" class="link link-hover">
 		<div class="px-2 mx-2 navbar-start min-w-fit">
 			<div class="text-lg font-bold wrap h-5">
 				Stackover<span class="bg-accent p-1 ml-1">love</span>.me
 			</div>
 			<sub class="font-thin flex-wrap text-xs">Koodausta kaninkolossa</sub>
 		</div>
+	    </a>
 		<!-- 		<div class="px-2 mx-2 navbar-center">
 			<div class="flex items-stretch">
 				<a class="btn btn-ghost btn-sm" href="/">Home</a>
