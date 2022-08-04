@@ -9,15 +9,16 @@
 				<label
 					tabindex="0"
 					class="btn btn-ghost btn-square"
-					aria-label="Menu svg"
 					title="Menu svg-kuva"
-				>
+				>Menu
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="h-5 w-5"
 						fill="none"
 						viewBox="0 0 24 24"
 						stroke="currentColor"
+						role="graphics-symbol"
+						aria-label="Menu svg"
 						><path
 							stroke-linecap="round"
 							stroke-linejoin="round"
@@ -37,7 +38,7 @@
 				</ul>
 			</div>
 		</div>
-		<a href="/" class="link link-hover">
+		<a href="#top" class="link link-hover">
 			<div class="px-2 mx-2 navbar-start min-w-fit">
 				<div class="text-lg font-bold wrap h-5">
 					Stackover<span class="bg-accent p-1 ml-1">love</span>.me

@@ -101,7 +101,7 @@
 			<a
 				href="https://www.linkedin.com/in/juha-halmu-430751232/"
 				target="_blank"
-				title="LinkedIn"
+				title="Minä ja LinkedIn"
 				class="btn btn-primary">LinkedIn</a
 			>
 		</span>
