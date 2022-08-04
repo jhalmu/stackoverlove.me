@@ -1,11 +1,11 @@
 <script context="module">
-	import Projektit from '$lib/Projektit.svelte';
+	import Projektit_git from '$lib/Projektit_git.svelte';
 	export const load = async ({ fetch }) => {
-		const res = await fetch('/projects.json');
+		const res = await fetch('/git.json');
 		if (res.ok) {
-			const { projects } = await res.json();
+			const { projects_git } = await res.json();
 			return {
-				props: { projects }
+				props: { projects_git }
 			};
 		}
 	};
@@ -17,7 +17,7 @@
 	import Nav from '$lib/Nav.svelte';
 	import About from '$lib/About.svelte';
 	import BackToTop from '$lib/BackToTop.svelte';
-	export let projects;
+	export let projects_git;
 </script>
 
 <svelte:head>
@@ -33,39 +33,41 @@
 </header>
 
 <main class="mx-auto mt-40 col-3 -z-50">
-	<!-- <article class="hero min-h-fit z-[100]" style="background-image: url(https://placeimg.com/1000/800/arch);">
-	<div class="hero-overlay bg-opacity-60"></div>
-	<section class="hero-content text-center text-neutral-content p-5">
-    <div class="max-w-md">
-      <h1 class="text-5xl">Tervetuloa</h1>
-      <p class="py-6">
-		Minä olen Juha Halmu. Näille sivuille kerään informaatiota tekemisistäni. 
-		Aloittele selaamalla tekemiäni projekteja. Githubissa 
-		Ja paina nappia lukeaksesi enemmän minusta.
-	  </p>
-     <span class="mr-5"><a href="#about" class="btn btn-primary">Lue lisää</a></span><span> <a href="#yhteys" class="btn btn-primary">Ota yhteyttä</a></span>  
-</div>
-	</section>
-</article> -->
+	<article class="hero min-h-fit z-[100]" id="start">
+		<div class="hero-overlay bg-opacity-60" />
+		<section class="hero-content text-center text-neutral-content p-5">
+			<div class="max-w-md">
+				<h1 class="text-5xl">Tervetuloa</h1>
+				<p class="py-6">
+					Minä olen Juha Halmu. Näille sivuille kerään informaatiota tekemisistäni. Aloittele vaikka
+					projekteista. Githubissa lisää halutusta projektista.
+				</p>
+				<span class="mr-5"><a href="#about" class="btn btn-primary">Lue lisää</a></span><span>
+					<a href="#yhteys" class="btn btn-primary">Ota yhteyttä</a></span
+				>
+			</div>
+		</section>
+	</article>
+
 	<article id="projects">
 		<section class="flex flex-wrap gap-8 justify-center">
 			<div class="hero flex flex-wrap justify-center mb-2 mt-8 text-4xl font-extralight ">
-				Projektit
+				<h2>Projektit</h2>
 			</div>
-			<Projektit {projects} />
+			<Projektit_git {projects_git} />
 		</section>
 	</article>
 
 	<article id="about">
 		<section class="flex flex-wrap gap-8 justify-center">
 			<div class="hero flex flex-wrap justify-center mb-2 mt-8 text-4xl font-extralight ">
-				About
+				<h2>About</h2>
 			</div>
 			<About />
 		</section>
 	</article>
 </main>
-<footer class="footer btm-nav-lg p-40 text-base-content mt-4 mb-16">
+<footer class="footer p-40  text-base-content mt-4">
 	<div>
 		<svg
 			width="30"
@@ -88,7 +90,7 @@
 			Tämä sivusto käyttää keksejä, <br /> että matkasi olisi mukavampi.
 		</p>
 		<p>
-			<input type="checkbox" name="gdprsRulesOk"> Oukei?
+			<input id="gdprs" type="checkbox" name="gdprsRulesOk" /> <label for="gdprs">Oukei?</label>
 		</p>
 	</div>
 	<div>

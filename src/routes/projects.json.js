@@ -25,7 +25,7 @@ export async function GET() {
 	} catch (error) {
 		return {
 			status: 500,
-			body: { error: 'Tehere was sevrverrrr errorrr.' }
+			body: { error: 'There was server error.' }
 		};
 	}
 }

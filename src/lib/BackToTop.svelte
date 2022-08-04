@@ -2,8 +2,13 @@
 	export let showOnPx = 150;
 	let hidden = true;
 
+/* 	function hideHero() {
+		document.getElementById('start').style.display = 'none';
+	} */
+
 	function goTop() {
 		document.body.scrollIntoView();
+		//hideHero();
 	}
 
 	function scrollContainer() {
@@ -23,9 +28,7 @@
 	}
 </script>
 
-<svelte:window on:scroll={handleOnScroll} />
 
-<div class="back-to-top btn btn-primary" on:click={goTop} class:hidden>Takaisin ylös</div>
 
 <style>
 	.back-to-top {
@@ -43,3 +46,6 @@
 		visibility: hidden;
 	}
 </style>
+<svelte:window on:scroll={handleOnScroll} />
+
+<div class="back-to-top btn btn-primary" on:click={goTop} class:hidden>Takaisin ylös</div>
