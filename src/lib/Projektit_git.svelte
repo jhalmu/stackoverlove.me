@@ -15,11 +15,11 @@
 		</figure>
 		<div class="card-body">
 			<h2 class="card-title">{name}</h2>
-			<p class="prose prose-base">
+			<div class="prose prose-base">
 				{#if description}
 					{@html marked(description)}
 				{/if}
-			</p>
+			</div>
 			<div class="flex justify-center mt-5 space-x-2 flex-wrap">
 				{#each languages.nodes as nuudeli}
 					<span class="badge badge-accent min-w-fit p-4 m-1" title="tag">{nuudeli.name}</span>

@@ -1,10 +1,7 @@
 <div class="card max-h-fit w-full max-w-4xl bg-base-100 border text-sm">
-	<!-- 		<figure class="px-5 pt-2 max-w-fit">
-			<img class="rounded-xl " src={image[0].url} alt={`Cover image for ${name}`} />
-		</figure> -->
 	<div class="card-body">
-		<h2 class="card-title">Juha Halmu</h2>
-		<article div class="prose prose-base">
+		<article class="prose prose-base">
+			<h2 class="card-title">Juha Halmu</h2>
 			<p>
 				Opiskelen tällä hetkellä Taitotalossa ohjelmointia pääkielenä Python. Kurssin
 				pohjatarkoituksena on saada junior software developer -taso. Laajempi
@@ -55,11 +52,16 @@
 		</article>
 
 		<div class="card-actions justify-center mt-5">
-			<a
-				class="link link-hover"
-				href="https://www.linkedin.com/in/juha-halmu-430751232/"
-				target="_blank">LinkedIn</a
-			>
+			<span>
+				<a href="#yhteys" class="btn btn-primary">Ota yhteyttä</a>
+			</span>
+			<span>
+				<a
+					href="https://www.linkedin.com/in/juha-halmu-430751232/"
+					target="_blank"
+					class="btn btn-primary">LinkedIn</a
+				>
+			</span>
 		</div>
 	</div>
 </div>

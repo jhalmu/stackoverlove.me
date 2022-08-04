@@ -20,10 +20,6 @@
 	export let projects_git;
 </script>
 
-<svelte:head>
-	<title>Juhan sivut | Welcome</title>
-</svelte:head>
-
 <header class="sticky z-50 ">
 	<Headroom duration="300ms" offset={50} tolerance={0}>
 		<nav class="navbar sticky z-50">
@@ -33,41 +29,42 @@
 </header>
 
 <main class="mx-auto mt-40 col-3 -z-50">
-	<article class="hero min-h-fit z-[100]" id="start">
+	<section class="hero min-h-fit z-[100]" id="start">
 		<div class="hero-overlay bg-opacity-60" />
-		<section class="hero-content text-center text-neutral-content p-5">
+		<div class="hero-content text-center text-neutral-content p-5">
 			<div class="max-w-md">
 				<h1 class="text-5xl">Tervetuloa</h1>
-				<p class="py-6">
+				<h2 class="py-6">
 					Minä olen Juha Halmu. Näille sivuille kerään informaatiota tekemisistäni. Aloittele vaikka
 					projekteista. Githubissa lisää halutusta projektista.
-				</p>
-				<span class="mr-5"><a href="#about" class="btn btn-primary">Lue lisää</a></span><span>
-					<a href="#yhteys" class="btn btn-primary">Ota yhteyttä</a></span
-				>
+				</h2>
+				<span class="mr-5"><a href="#about" class="btn btn-primary">Lue lisää</a></span>
+				<span>
+					<a href="#yhteys" class="btn btn-primary">Ota yhteyttä</a>
+				</span>
 			</div>
-		</section>
-	</article>
+		</div>
+	</section>
 
-	<article id="projects">
-		<section class="flex flex-wrap gap-8 justify-center">
+	<section id="projects">
+		<div class="flex flex-wrap gap-8 justify-center">
 			<div class="hero flex flex-wrap justify-center mb-2 mt-8 text-4xl font-extralight ">
 				<h2>Projektit</h2>
 			</div>
 			<Projektit_git {projects_git} />
-		</section>
-	</article>
+		</div>
+	</section>
 
-	<article id="about">
-		<section class="flex flex-wrap gap-8 justify-center">
+	<section id="about">
+		<div class="flex flex-wrap gap-8 justify-center">
 			<div class="hero flex flex-wrap justify-center mb-2 mt-8 text-4xl font-extralight ">
 				<h2>About</h2>
 			</div>
 			<About />
-		</section>
-	</article>
+		</div>
+	</section>
 </main>
-<footer class="footer p-40  text-base-content mt-4">
+<footer class="footer p-40 text-base-content mt-4">
 	<div>
 		<svg
 			width="30"
@@ -95,7 +92,10 @@
 	</div>
 	<div>
 		<span class="footer-title">Yhteys</span>
-		Laita spostia (qr-lukija tai puhelimen kamera)
+		Laita sähköpostia <br />
+		a) etunimi.sukunimi iki.fi <br />
+		b) käytä qr-lukijaa tai puhelimen kameraa <br />
+		(avaa suoraan sähköpostiohjelman)
 		<img src="osoite.png" alt="Lähetä postia!" />
 		<a
 			class="link link-hover p-2"
@@ -105,9 +105,24 @@
 	</div>
 	<div id="yhteys">
 		<span class="footer-title">Vanhat blogit ym</span>
-		<a class="link link-hover p-2" href="https://dividends-o-matic.net/" target="_blank" title="dividends-o-matic.net">dividends-o-matic.net</a>
-		<a class="link link-hover p-2" href="https://juhahalmu.wordpress.com/" target="_blank" title="My old wp-pages (content)">WP</a>
-		<a class="link link-hover p-2" href="https://www.flickr.com/photos/juhahalmu/" target="_blank" title="My Flicker">Flickr</a>
+		<a
+			class="link link-hover p-2"
+			href="https://dividends-o-matic.net/"
+			target="_blank"
+			title="dividends-o-matic.net">dividends-o-matic.net</a
+		>
+		<a
+			class="link link-hover p-2"
+			href="https://juhahalmu.wordpress.com/"
+			target="_blank"
+			title="My old wp-pages (content)">WP</a
+		>
+		<a
+			class="link link-hover p-2"
+			href="https://www.flickr.com/photos/juhahalmu/"
+			target="_blank"
+			title="My Flicker">Flickr</a
+		>
 	</div>
 </footer>
 <div><BackToTop /></div>
