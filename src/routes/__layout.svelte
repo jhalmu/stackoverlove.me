@@ -98,20 +98,16 @@
 		Laita spostia (qr-lukija tai puhelimen kamera)
 		<img src="osoite.png" alt="Lähetä postia!" />
 		<a
-			class="link link-hover"
+			class="link link-hover p-2"
 			href="https://www.linkedin.com/in/juha-halmu-430751232/"
 			target="_blank">tai pistä viestiä LinkedIn:in kautta</a
 		>
 	</div>
 	<div id="yhteys">
 		<span class="footer-title">Vanhat blogit ym</span>
-		<a class="link link-hover" href="https://dividends-o-matic.net/" target="_blank"
-			>dividends-o-matic.net</a
-		>
-		<a class="link link-hover" href="https://juhahalmu.wordpress.com/" target="_blank">WP</a>
-		<a class="link link-hover" href="https://www.flickr.com/photos/juhahalmu/" target="_blank"
-			>Flickr</a
-		>
+		<a class="link link-hover p-2" href="https://dividends-o-matic.net/" target="_blank" title="dividends-o-matic.net">dividends-o-matic.net</a>
+		<a class="link link-hover p-2" href="https://juhahalmu.wordpress.com/" target="_blank" title="My old wp-pages (content)">WP</a>
+		<a class="link link-hover p-2" href="https://www.flickr.com/photos/juhahalmu/" target="_blank" title="My Flicker">Flickr</a>
 	</div>
 </footer>
 <div><BackToTop /></div>
