@@ -97,11 +97,14 @@
 		b) käytä qr-lukijaa tai puhelimen kameraa <br />
 		(avaa suoraan sähköpostiohjelman)
 		<img src="osoite.png" alt="Lähetä postia!" />
-		<a
-			class="link link-hover p-2"
-			href="https://www.linkedin.com/in/juha-halmu-430751232/"
-			target="_blank">tai pistä viestiä LinkedIn:in kautta</a
-		>
+			<span>
+				<a
+					href="https://www.linkedin.com/in/juha-halmu-430751232/"
+					target="_blank"
+					title="LinkedIn"
+					class="btn btn-primary">LinkedIn</a
+				>
+			</span>
 	</div>
 	<div id="yhteys">
 		<span class="footer-title">Vanhat blogit ym</span>
@@ -109,7 +112,7 @@
 			class="link link-hover p-2"
 			href="https://dividends-o-matic.net/"
 			target="_blank"
-			title="dividends-o-matic.net">dividends-o-matic.net</a
+			title="Vanhat kotisivuni">dividends-o-matic.net</a
 		>
 		<a
 			class="link link-hover p-2"

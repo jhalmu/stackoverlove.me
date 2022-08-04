@@ -55,13 +55,6 @@
 			<span>
 				<a href="#yhteys" class="btn btn-primary">Ota yhteyttä</a>
 			</span>
-			<span>
-				<a
-					href="https://www.linkedin.com/in/juha-halmu-430751232/"
-					target="_blank"
-					class="btn btn-primary">LinkedIn</a
-				>
-			</span>
 		</div>
 	</div>
 </div>

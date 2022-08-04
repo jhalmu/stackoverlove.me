@@ -6,7 +6,7 @@
 		<div class="navbar-start">
 			<div class="dropdown">
 				<!-- svelte-ignore a11y-label-has-associated-control -->
-				<label tabindex="0" class="btn btn-ghost btn-square">
+				<label tabindex="0" class="btn btn-ghost btn-square" aria-label="Menu svg" title="Menu svg-kuva">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="h-5 w-5"

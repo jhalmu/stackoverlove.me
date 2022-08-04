@@ -10,7 +10,6 @@
 				class="rounded-xl"
 				src="figure.jpg"
 				alt={`Cover image for ${name}`}
-				title={`Cover image for ${name}`}
 			/>
 		</figure>
 		<div class="card-body">
