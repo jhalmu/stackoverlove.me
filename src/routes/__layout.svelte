@@ -31,7 +31,7 @@
 <main class="mx-auto mt-40 col-3 -z-50">
 	<section class="hero min-h-fit z-[100]" id="start">
 		<div class="hero-overlay bg-opacity-10 shadow-md" />
-		<div class="hero-content text-center text-neutral-content p-5">
+		<div class="hero-content text-center text-cyan-800 p-5">
 			<div class="max-w-md">
 				<h1 class="text-5xl">Tervetuloa</h1>
 				<h2 class="py-6">
