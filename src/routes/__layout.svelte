@@ -97,14 +97,14 @@
 		b) käytä qr-lukijaa tai puhelimen kameraa <br />
 		(avaa suoraan sähköpostiohjelman)
 		<img src="osoite.png" alt="Lähetä postia!" />
-			<span>
-				<a
-					href="https://www.linkedin.com/in/juha-halmu-430751232/"
-					target="_blank"
-					title="LinkedIn"
-					class="btn btn-primary">LinkedIn</a
-				>
-			</span>
+		<span>
+			<a
+				href="https://www.linkedin.com/in/juha-halmu-430751232/"
+				target="_blank"
+				title="LinkedIn"
+				class="btn btn-primary">LinkedIn</a
+			>
+		</span>
 	</div>
 	<div id="yhteys">
 		<span class="footer-title">Vanhat blogit ym</span>
