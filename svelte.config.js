@@ -1,4 +1,4 @@
-import vercel from '@sveltejs/adapter-vercel';
+import adapter from '@sveltejs/adapter-node';
 import preprocess from 'svelte-preprocess';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -12,12 +12,7 @@ const config = {
 	],
 
 	kit: {
-		adapter: vercel({
-			// default options are shown
-			pages: 'build',
-			assets: 'build',
-			fallback: null
-		})
+		adapter: adapter()
 	}
 };
 

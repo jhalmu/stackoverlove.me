@@ -13,3 +13,7 @@ Leiska on minun tekemä ja pohjalla [Tailwindcss](https://tailwindcss.com/) ja [
 Toki tämä sivusto tulee muuttumaan vielä ja mokkuloita eli komponentteja tulee lisää.
 
 Tätä kirjoittsessa sivuja ei ole vielä julkaistu, koska sisältö on vielä työn alla
+
+## 5.8.2022
+
+Vihdoin eka versio valmis ja pyörii omalla serverillä. Dev pyörii vielä Vercelissä. SEO pitäisi olla aika ok ja saavutettavuus myös. Oikea GDPRS pannari puuttuu kyllä vielä, mutta nyt living on edge. Onhan siellä paikka johon laittaa rastin. Projetktit tulevat githubista, niin itseasiassa hygraph ei ole nyt toiminnassa sivuilla. Mutta vaikuttaa niin mukavalta palvelulta, että kylllä sitä käyttää. Mainostan sitä mielelläni, kun sillä oli niin hyvä ja mielenkiintoinen repo graphql:n liittyen. Ja pitäähn sitä blogihommelia saada aikaan... 

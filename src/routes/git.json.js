@@ -1,3 +1,5 @@
+import 'dotenv/config'
+//console.log(process.env)
 import { gql, GraphQLClient } from 'graphql-request';
 
 export async function GET() {
@@ -7,7 +9,7 @@ export async function GET() {
 		const graphQLClient = new GraphQLClient(endpoint, {
 			method: 'POST',
 			headers: {
-				authorization: 'Bearer ' + process.env['GIT_BEARER_TOKEN']
+				authorization: 'Bearer ' + process.env.GIT_BEARER_TOKEN
 			}
 		});
 
