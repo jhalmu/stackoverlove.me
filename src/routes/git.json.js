@@ -25,6 +25,7 @@ export async function GET() {
 								createdAt
 								url
 								description
+								homepageUrl
 								isFork
 								languages(first: 10) {
 									nodes {

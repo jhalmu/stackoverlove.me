@@ -2,7 +2,7 @@
 	id="top"
 	class="mx-auto -my-10 navbar h-40 top-0 border-base-300 text-neutral-content divider pl-10 pr-10 pt-0 bg-white"
 >
-	<div class="mx-auto max-w-4xl">
+	<div class="mx-auto max-w-4xl text-cyan-800">
 		<div class="navbar-start">
 			<div class="dropdown">
 				<!-- svelte-ignore a11y-label-has-associated-control -->
