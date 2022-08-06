@@ -55,12 +55,12 @@
 		</div>
 	</section>
 
-	<section id="about">
+	<section id="about" >
 		<div class="flex flex-wrap gap-8 justify-center">
 			<div class="hero flex flex-wrap justify-center mb-2 mt-8 text-4xl font-extralight ">
 				<h2>About</h2>
 			</div>
-			<About />
+			<About {projects_git} />
 		</div>
 	</section>
 </main>

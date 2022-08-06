@@ -6,7 +6,7 @@
 	import { marked } from 'marked';
 </script>
 
-{#each projects_git.user.pinnedItems.nodes as { name, createdAt, description, homepageUrl, languages, url }}
+{#each projects_git.user.pinnedItems.nodes as { avatarUrl, name, createdAt, description, homepageUrl, languages, url }}
 	<div class="card max-h-fit w-80 max-w-xl bg-base-100 border">
 		<figure class="mt-10">
 			<img class="rounded-xl" src="figure.jpg" alt={`Cover image for ${name}`} />
@@ -46,6 +46,5 @@
 				</span>
 			</div>
 		</div>
-
 	</div>
 {/each}

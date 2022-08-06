@@ -16,6 +16,7 @@ export async function GET() {
 		const query = gql`
 			query {
 				user(login: "jhalmu") {
+					avatarUrl
 					pinnedItems(first: 20, types: REPOSITORY) {
 						totalCount
 						nodes {

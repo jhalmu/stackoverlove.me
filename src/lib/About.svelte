@@ -1,8 +1,14 @@
-<div class="card max-h-fit w-full max-w-4xl bg-base-100 border text-sm">
+<script>
+	export let projects_git
+</script>
+<div class="card max-w-4xl bg-base-100 text-sm border py-5 px-10">
 	<div class="card-body">
 		<article class="prose prose-base">
 			<h2 class="card-title">Juha Halmu</h2>
 			<p>
+				<figure class="m-5 object-left float-right">
+				<img class="rounded-xl border shadow-xl" width="150" height="150" src="{projects_git.user.avatarUrl}" alt="Minä" />
+				</figure>
 				Opiskelen tällä hetkellä Taitotalossa ohjelmointia pääkielenä Python. Kurssin
 				pohjatarkoituksena on saada junior software developer -taso. Laajempi
 				teoreettis-käytännöllinen oppiminen tapahtuu luonnollisesti itseopiskeluna tekemällä
