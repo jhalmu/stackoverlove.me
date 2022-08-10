@@ -1,4 +1,4 @@
-import 'dotenv/config'
+import 'dotenv/config';
 //console.log(process.env)
 import { gql, GraphQLClient } from 'graphql-request';
 

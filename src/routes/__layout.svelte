@@ -1,4 +1,5 @@
 <script context="module">
+	import Hero from '$lib/Hero.svelte';
 	import Projektit_git from '$lib/Projektit_git.svelte';
 	export const load = async ({ fetch }) => {
 		const res = await fetch('/git.json');
@@ -29,22 +30,7 @@
 </header>
 
 <main class="mx-auto mt-40 col-3 -z-50">
-	<section class="hero min-h-fit z-[100]" id="start">
-		<div class="hero-overlay bg-opacity-10 shadow-md" />
-		<div class="hero-content text-center text-cyan-800 p-5">
-			<div class="max-w-md">
-				<h1 class="text-5xl">Tervetuloa</h1>
-				<h2 class="py-6">
-					Minä olen Juha Halmu. Näille sivuille kerään informaatiota tekemisistäni. Aloittele vaikka
-					projekteista. Githubissa lisää halutusta projektista.
-				</h2>
-				<span class="mr-5"><a href="#about" class="btn btn-primary">Lue lisää</a></span>
-				<span>
-					<a href="#yhteys" class="btn btn-primary">Ota yhteyttä</a>
-				</span>
-			</div>
-		</div>
-	</section>
+	<Hero />
 
 	<section id="projects">
 		<div class="flex flex-wrap gap-8 justify-center">
@@ -55,7 +41,7 @@
 		</div>
 	</section>
 
-	<section id="about" >
+	<section id="about">
 		<div class="flex flex-wrap gap-8 justify-center">
 			<div class="hero flex flex-wrap justify-center mb-2 mt-8 text-4xl font-extralight ">
 				<h2>About</h2>
