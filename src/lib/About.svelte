@@ -32,7 +32,7 @@
 			<p>
 				Olen vuosien varrella lämmitellyt ohjelmointitaitojani ja katsonut ja pohtinut tuhansia
 				videoita ja useita kursseja, mutta varsinaiset projektit jäivät kolmivuorotyön
-				himmennyksessä. Otin sivuston teemaksi käsitteen Rabbid Hole, koska varsinaisen projektien
+				himmennyksessä. Otin sivuston teemaksi käsitteen Rabbit Hole, koska varsinaisen projektien
 				puute työn ohessa pistää tutustumaan kaikkeen uuteen, vähän liikaakin.
 			</p>
 			<p>
@@ -50,7 +50,7 @@
 			</p>
 			<p>
 				Miksi listasta puuttuu React? Koska omiin projekteihin se on overkill vaikka sellaista ei
-				olekaan kuin overkill.
+				olekaan kuin overkill.*)
 			</p>
 			<p>
 				Yritän välttää puhumasta mitä aion tehdä koska tekemistä ja varsinkin ideoita riittää. Sen
@@ -61,6 +61,10 @@
 				Fun fact: Olen joskus koodannut kalliilla hötömölöä, niin että annoin korjaukset
 				paperilapulla, koska the koodarit eivät päästäneet lähellekään serverin sisältöjä. Tuohon
 				aikaan löysin myös valon koska kuulin että oli olemassa if ja else.
+			</p>
+			<p>
+				*) Nyt tarkemmin asiaan perehdyttyäni React vaikuttaa nykyään ihan mukavalta näin
+				kevyesti katsastettuna. Täytyypä tehdä jotain julkiseen jakoon.
 			</p>
 		</article>
 
