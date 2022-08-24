@@ -6,7 +6,7 @@
 	<div class="card-body">
 		<article class="prose prose-base">
 			<h2 class="card-title">Juha Halmu</h2>
-			<p>
+			
 				<figure class="m-5 object-left float-right">
 					<img
 						class="rounded-xl border shadow-xl"
@@ -16,6 +16,7 @@
 						alt="Minä"
 					/>
 				</figure>
+			<p>
 				Opiskelen tällä hetkellä Taitotalossa ohjelmointia pääkielenä Python. Kurssin pohjatarkoituksena
 				on saada junior software developer -taso. Laajempi teoreettis-käytännöllinen oppiminen tapahtuu
 				luonnollisesti itseopiskeluna tekemällä harjoitteita ja omia projekteja. Sekä kurssiin kuuluvan
