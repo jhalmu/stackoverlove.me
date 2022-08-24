@@ -40,6 +40,7 @@
 						target="_blank"
 						title="Read {name}'s source in GitHub"
 						aria-label="Read {name}'s source in GitHub"
+						style="cursor: pointer;"
 					>
 						<span id="githublink_{id}"> GitHub <GitHubIcon /></span></a
 					>
