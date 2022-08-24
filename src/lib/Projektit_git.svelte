@@ -21,7 +21,7 @@
 			<div />
 			<div class="flex justify-center flex-wrap h-20">
 				{#each languages.nodes as nuudeli}
-					<span class="badge badge-accent min-w-fit p-4 m-1 text-cyan-800" title={nuudeli.name}
+					<span class="badge badge-accent min-w-fit p-4 m-1 text-cyan-800"
 						>{nuudeli.name}</span
 					>
 				{/each}
