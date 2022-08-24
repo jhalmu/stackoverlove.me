@@ -6,7 +6,7 @@
 	import { marked } from 'marked';
 </script>
 
-{#each projects_git.user.pinnedItems.nodes as { avatarUrl, name, createdAt, description, homepageUrl, languages, url }}
+{#each projects_git.user.pinnedItems.nodes as { id, avatarUrl, name, createdAt, description, homepageUrl, languages, url }}
 	<div class="card max-h-fit w-80 max-w-xl bg-base-100 border">
 		<figure class="mt-10">
 			<img class="rounded-xl" src="figure.jpg" alt={`Cover image for ${name}`} />
@@ -29,24 +29,27 @@
 			<div class="card-actions flex-wrap justify-center content-end mt-5 h-40 space-x-5">
 				<span class="text-cyan-800">
 					{#if homepageUrl}
+						<label
+							for="demolink_{id}"
+							tabindex="0"
+							title="{name}'s Page"
+							aria-label="{name}'s Page"
+						/>
 						<a href={homepageUrl} target="_blank">
-							<label for="demolink" tabindex="0" title="{name}'s Page" aria-label="{name}'s Page">
-								<span id="demolink"> Demo <WwwPageIcon /></span>
-							</label>
+							<span id="demolink_{id}"> Demo <WwwPageIcon /></span>
 						</a>
 					{/if}
 				</span>
 				<span class="text-cyan-800">
+					<label
+						for="githublink_{id}"
+						tabindex="0"
+						title="Read {name}'s source in GitHub"
+						aria-label="Read {name}'s source in GitHub"
+					/>
 					<a href={url} target="_blank">
-						<label
-							for="githublink"
-							tabindex="0"
-							title="Read {name}'s source in GitHub"
-							aria-label="Read {name}'s source in GitHub"
-						>
-							<span id="githublink"> GitHub <GitHubIcon /></span>
-						</label>
-					</a>
+						<span class="githublink_{id}"> GitHub <GitHubIcon /></span></a
+					>
 				</span>
 			</div>
 		</div>

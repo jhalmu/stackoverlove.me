@@ -63,8 +63,8 @@
 				aikaan löysin myös valon koska kuulin että oli olemassa if ja else.
 			</p>
 			<p>
-				*) Nyt tarkemmin asiaan perehdyttyäni React vaikuttaa nykyään ihan mukavalta näin
-				kevyesti katsastettuna. Täytyypä tehdä jotain julkiseen jakoon.
+				*) Nyt tarkemmin asiaan perehdyttyäni React vaikuttaa nykyään ihan mukavalta näin kevyesti
+				katsastettuna. Täytyypä tehdä jotain julkiseen jakoon.
 			</p>
 		</article>
 
