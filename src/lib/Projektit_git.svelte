@@ -29,26 +29,15 @@
 			<div class="card-actions flex-wrap justify-center content-end mt-5 h-40 space-x-5">
 				<span class="text-cyan-800">
 					{#if homepageUrl}
-						<label
-							for="demolink_{id}"
-							tabindex="0"
-							title="{name}'s Page"
-							aria-label="{name}'s Page"
-						/>
-						<a href={homepageUrl} target="_blank">
+						
+						<a href={homepageUrl} target="_blank" title="{name}'s Page" aria-label="{name}'s Page">
 							<span id="demolink_{id}"> Demo <WwwPageIcon /></span>
 						</a>
 					{/if}
 				</span>
 				<span class="text-cyan-800">
-					<label
-						for="githublink_{id}"
-						tabindex="0"
-						title="Read {name}'s source in GitHub"
-						aria-label="Read {name}'s source in GitHub"
-					/>
-					<a href={url} target="_blank">
-						<span class="githublink_{id}"> GitHub <GitHubIcon /></span></a
+					<a href={url} target="_blank" title="Read {name}'s source in GitHub" aria-label="Read {name}'s source in GitHub">
+						<span id="githublink_{id}"> GitHub <GitHubIcon /></span></a
 					>
 				</span>
 			</div>
