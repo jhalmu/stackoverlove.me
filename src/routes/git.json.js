@@ -2,7 +2,7 @@ import 'dotenv/config';
 //console.log(process.env)
 import { gql, GraphQLClient } from 'graphql-request';
 
-export async function get() {
+export async function GET() {
 	const endpoint = 'https://api.github.com/graphql';
 
 	try {
