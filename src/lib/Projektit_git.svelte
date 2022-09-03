@@ -21,9 +21,7 @@
 			<div />
 			<div class="flex justify-center flex-wrap h-20">
 				{#each languages.nodes as nuudeli}
-					<span class="badge badge-accent min-w-fit p-4 m-1 text-cyan-800"
-						>{nuudeli.name}</span
-					>
+					<span class="badge badge-accent min-w-fit p-4 m-1 text-cyan-800">{nuudeli.name}</span>
 				{/each}
 			</div>
 			<div class="card-actions flex-wrap justify-center content-end mt-5 h-40 space-x-5">
