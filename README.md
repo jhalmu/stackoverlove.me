@@ -1,5 +1,7 @@
 # stackoverlove.me
 
+![basics](https://https://repository-images.githubusercontent.com/518735105/892cfd82-0f15-441b-ae0d-9e7a1ca5a263)
+
 ## 28.7.2022
 
 Kotisivut portfoliolleni ja muulle toiminnalle kuten bloggaamiselle ja erinäisille mittareille (osakkeet, maailman rauha ym).
