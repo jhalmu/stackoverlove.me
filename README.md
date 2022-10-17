@@ -23,3 +23,7 @@ Vihdoin eka versio valmis ja pyörii omalla serverillä. Dev pyörii vielä Verc
 ## 10.8.2022
 
 Hiominen jatkuu. Hero-banneriin täytyi saada oikeat sävyt. Tai ainakin paremmat. Samalla siirsin sen omaan komponenttiin.
+
+## 17.10.2022
+
+Tulinpa tsekkaamaan tämän. Ja opin että ehkä ei kananta olla @next näiden "uuden sukupolven" frameworkkien (juu svelte ei ole framework, mutta alkaa olla niin paljon omannäköistä koodia, että käytän tätä kun en nyt heti muista parempaa sanaa) kanssa. Meinaan tein niin kuin me nuoret koodaritoivot helposti teemme eli pistin että "npm update". Toiset ohjaa että pitäisi joka kerta kun avaa projektin, niin pistää update, toiset taas varomaan sitä - varsinkin jos tuotannosta kyse. Toki eka ohje oli devausta varten, toinen tuotantoa, joten ei sikäli ristiriitaa. Ja kun yksin tätä projektia teen. No, en jaksanut nyt juuri ruveta migraatiota tekemään koska se ei nyt hyödytä mitään. Mieluummin aloitan uuden projektin. Päivitin kuitenkin kuten ohjeissa on viimeisimpään pakettiin ennen muutoksia. Tarkemmat tiedot tästä jos nyt joku haluaa forkata tämän ja päivittää: <https://github.com/sveltejs/kit/discussions/5774>
