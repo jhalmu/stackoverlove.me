@@ -24,21 +24,8 @@
 			</p>
 			<p>
 				Pohjakoulutuksena olen Yo, ammatillisia papereita on ohjelmoija-datanomi ja mt-lähihoitaja.
-				Kummastakin on työkokemusta. Aloitin ensin ohjelmoinnilla, mutta kun en ollut vielä löytänyt
-				esim Pythonia, ei auttanut kuin vaihtaa vähäksi aikaa alaa. Tosin olen myös hyvä
-				kriittisessä otteessa ja uskallan sanoa, neuvoa ja ohjeistaa. Aiempi työni mt-alalla on toki
-				opettanut muotoilemaan sanomani ja toisaalta rakastamaan kehujen antoa, koska olen huomannut
-				että kehut ja myönteinen yksinkertaisesti vain toimii.
-			</p>
-			<p>
-				Olen vuosien varrella lämmitellyt ohjelmointitaitojani ja katsonut ja pohtinut tuhansia
-				videoita ja useita kursseja, mutta varsinaiset projektit jäivät kolmivuorotyön
-				himmennyksessä. Otin sivuston teemaksi käsitteen Rabbit Hole, koska varsinaisen projektien
-				puute työn ohessa pistää tutustumaan kaikkeen uuteen, vähän liikaakin.
-			</p>
-			<p>
-				Harrastan ja olen harrastanut: valokuvaus, sukututkimus, sijoittaminen, runous, voimailu ja
-				opiskelu.
+				Aloitin ensin ohjelmoinnilla, mutta kun en ollut vielä löytänyt esim Pythonia, ei auttanut
+				kuin vaihtaa vähäksi aikaa alaa.
 			</p>
 			<p>
 				Ota yhteyttä esim LinkedIn:in kautta tai laita postia etunimi.sukunimi @iki.fi niin kerron
@@ -46,26 +33,9 @@
 				qr-koodin takaa.
 			</p>
 			<p>
-				Avainsanat: frontend, backend, python, javascript, php, macos, linux, win, tailwindcss, css,
-				html, svelte, sql, graphql, docker, fastapi, flask, nginx, security, jne
-			</p>
-			<p>
-				Miksi listasta puuttuu React? Koska omiin projekteihin se on overkill vaikka sellaista ei
-				olekaan kuin overkill.*)
-			</p>
-			<p>
-				Yritän välttää puhumasta mitä aion tehdä koska tekemistä ja varsinkin ideoita riittää. Sen
-				verran sanon, että nämä sivut ovat kehityksen alla. Yritän saada sivut mahdollisimman
-				valideiksi ja saavutettaviksi.
-			</p>
-			<p>
-				Fun fact: Olen joskus koodannut kalliilla hötömölöä, niin että annoin korjaukset
-				paperilapulla, koska the koodarit eivät päästäneet lähellekään serverin sisältöjä. Tuohon
-				aikaan löysin myös valon koska kuulin että oli olemassa if ja else.
-			</p>
-			<p>
-				*) Nyt tarkemmin asiaan perehdyttyäni React vaikuttaa nykyään ihan mukavalta näin kevyesti
-				katsastettuna. Täytyypä tehdä jotain julkiseen jakoon.
+				Avainsanoja: frontend, backend, react, javascript, python, php, macos, linux, win,
+				tailwindcss, css, html, svelte, sql, chartjs, rechart, graphql, docker, fastapi, flask,
+				nginx, security, jne
 			</p>
 		</article>
 
